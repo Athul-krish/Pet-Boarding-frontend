@@ -32,7 +32,7 @@ const AddPet = () => {
   const readValues = () => {
 
     axios
-      .post("http://localhost:3000/add", pet)
+      .post("http://localhost:3000/addpet", pet)
       .then((response) => {
         alert(response.data.message);
       })
@@ -52,8 +52,6 @@ const AddPet = () => {
 
   return (
     <>
-      <Navbar />
-
       <div
         className="min-vh-100 py-5"
         style={{

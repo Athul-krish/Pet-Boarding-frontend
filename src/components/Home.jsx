@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 const Home = () => {
   return (
     <>
-      <Navbar />
+
 
       <div
         className="min-vh-100 d-flex align-items-center"
@@ -46,7 +46,7 @@ const Home = () => {
             <div className="d-flex justify-content-center gap-3 flex-wrap">
 
               <Link
-                to="/add"
+                to="/addpet"
                 className="btn btn-dark btn-lg px-4"
               >
                 Register Pet
